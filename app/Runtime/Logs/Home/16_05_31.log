@@ -1,0 +1,2314 @@
+[ 2016-05-31T00:00:10+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624009985
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-05-31T00:00:35+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624035316
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-05-31T00:02:05+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624125566
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-05-31T00:02:28+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624148776
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-05-31T00:02:31+08:00 ] 127.0.0.1 /Home/Index/withdrawReservation?id=66&_=1464624148777
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: DELETE FROM `reservation` WHERE `reservation_no` = 66 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-05-31T00:02:38+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624158154
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-05-31T00:02:40+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624160154
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-05-31T00:02:40+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624160155
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-05-31T00:03:06+08:00 ] 127.0.0.1 /Home/Index/submit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `reservation` (`start_time`,`end_time`,`operator`,`operator_contact`,`meeting_theme`,`meeting_dept`,`meeting_num`,`multimedia`,`operator_username`,`meeting_date`,`room_no`,`reservation_time`) VALUES ('09:15','09:30','eda','18888940620','week meeting','web','1','1','Eric','2016-05-31','1','2016-05-31 00:03:06') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-05-31T00:03:10+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624190556
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-05-31T00:05:26+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624326666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-05-31T00:06:07+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624367041
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-05-31T00:06:07+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624367676
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-05-31T00:06:07+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624367677
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-05-31T00:06:10+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-04&_=1464624367678
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-04'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-05-31T00:06:11+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-18&_=1464624367679
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-18'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-05-31T00:06:13+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-18&_=1464624367680
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-18'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-05-31T00:07:20+08:00 ] 127.0.0.1 /Home/Index/submit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `reservation` (`start_time`,`end_time`,`operator`,`operator_contact`,`meeting_theme`,`meeting_dept`,`meeting_num`,`multimedia`,`operator_username`,`meeting_date`,`room_no`,`reservation_time`) VALUES ('09:45','14:30','Eric','18969940580','New Product','Mobile','21','1','Eric','2016-05-18','1','2016-05-31 00:07:20') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006514s ]
+
+[ 2016-05-31T00:07:22+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624442928
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-05-31T00:07:27+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624447452
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-05-31T00:07:27+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624447453
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-05-31T00:07:41+08:00 ] 127.0.0.1 /Home/Index/showReservation?id=68&_=1464624447454
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `reservation_no` = '68'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-05-31T00:08:41+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624521033
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-05-31T00:08:55+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624535247
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-05-31T00:08:55+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624535248
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-05-31T00:08:57+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624537432
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002079s ]
+
+[ 2016-05-31T00:08:58+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624538681
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-05-31T00:08:58+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624538682
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-05-31T00:09:00+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624540107
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-05-31T00:09:08+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624548452
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-05-31T00:09:08+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624548453
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-05-31T00:09:11+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624551047
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-05-31T00:09:17+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624557388
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-05-31T00:09:17+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624557389
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-05-31T00:11:49+08:00 ] 127.0.0.1 /Home/Index/submit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `reservation` (`start_time`,`end_time`,`operator`,`operator_contact`,`meeting_theme`,`meeting_dept`,`meeting_num`,`multimedia`,`operator_username`,`meeting_date`,`room_no`,`reservation_time`) VALUES ('17:00','18:00','eda','0580-4885565',' Enterprise Culture','All','39','1','Eric','2016-05-31','3','2016-05-31 00:11:49') [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006645s ]
+
+[ 2016-05-31T00:11:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624711796
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-31T00:12:08+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464624728381
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-05-31T00:12:33+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464624753447
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-05-31T00:12:33+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464624753448
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-31T00:12:34+08:00 ] 127.0.0.1 /Home/Index/showReservation?id=68&_=1464624753449
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `reservation_no` = '68'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-05-31T00:30:17+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-05-31T00:30:24+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-05-31T00:30:25+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464625825573
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-05-31T00:30:25+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464625825574
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-31T00:30:29+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464625829556
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-05-31T00:30:52+08:00 ] 127.0.0.1 /Home/Index/withdrawReservation?id=63&_=1464625829557
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0011s ]
+SQL: DELETE FROM `reservation` WHERE `reservation_no` = 63 [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006609s ]
+
+[ 2016-05-31T00:30:55+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464625855050
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-05-31T00:30:55+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464625855051
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-05-31T00:30:58+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-11&_=1464625855052
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-11'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-05-31T00:31:00+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-05-31T00:33:50+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-05-31T00:33:51+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464626031136
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-05-31T00:33:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464626031137
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-05-31T00:33:52+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464626032286
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-05-31T14:40:18+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464676818084
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-05-31T14:40:18+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464676818085
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-05-31T14:40:20+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464676820338
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-05-31T14:54:20+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-05-31T14:54:21+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677661276
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-05-31T14:54:21+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677661277
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-05-31T14:54:24+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464677664291
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-05-31T14:54:26+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677666203
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-05-31T14:54:26+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677666204
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-05-31T14:54:48+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464677688228
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-05-31T14:54:56+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677696053
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-05-31T14:54:56+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677696054
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-31T14:54:57+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-05-31T14:55:01+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677701463
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-31T14:55:01+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677701464
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-05-31T14:55:04+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677704636
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-05-31T14:55:04+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677704637
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-05-31T14:55:07+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677707491
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-05-31T14:55:07+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677707492
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-05-31T14:55:10+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677710821
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-05-31T14:55:10+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677710822
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-05-31T14:55:49+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-05-31T14:55:51+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677750933
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-05-31T14:55:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677750934
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-05-31T14:55:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464677751772
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-05-31T14:56:25+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464677785000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-05-31T14:56:27+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-05-31T14:56:28+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-05-31T14:56:29+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677789848
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-05-31T14:56:29+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677789849
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-05-31T14:56:31+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464677791067
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-05-31T14:56:35+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677795891
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-05-31T14:56:36+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677795892
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-05-31T14:58:17+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677896976
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-05-31T14:58:17+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677896977
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-05-31T14:58:18+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464677898752
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-05-31T14:58:37+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-05-31T14:58:43+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-05-31T14:58:44+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677924553
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-05-31T14:58:44+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677924554
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-05-31T14:58:45+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464677925739
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-05-31T14:59:33+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464677973197
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-05-31T14:59:34+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464677974221
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-05-31T14:59:36+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677976108
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-05-31T14:59:36+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677976109
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-05-31T14:59:36+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464677976922
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-05-31T14:59:52+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464677991975
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-31T14:59:52+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464677991976
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-05-31T14:59:52+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464677992698
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-05-31T15:00:18+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678018054
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-05-31T15:00:18+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678018055
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-05-31T15:00:33+08:00 ] 127.0.0.1 /Home/Index/submit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `reservation` (`start_time`,`end_time`,`operator`,`operator_contact`,`meeting_theme`,`meeting_dept`,`meeting_num`,`multimedia`,`operator_username`,`meeting_date`,`room_no`,`reservation_time`) VALUES ('09:15','09:45','eda','8008208820','week meeting','web','21','1','Admin','2016-05-31','2','2016-05-31 15:00:33') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-05-31T15:00:35+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678035330
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-05-31T15:00:54+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678054018
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-05-31T15:00:58+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678057992
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-05-31T15:00:59+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678059850
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-05-31T15:00:59+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678059851
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-05-31T15:01:00+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678060664
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-05-31T15:01:25+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678085671
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-31T15:01:29+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678089359
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-05-31T15:01:29+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678089360
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-05-31T15:01:30+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678090351
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-05-31T15:01:43+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678103111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+
+[ 2016-05-31T15:01:44+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678104125
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-05-31T15:01:44+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678104126
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-05-31T15:01:45+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678105232
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+
+[ 2016-05-31T15:01:54+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678114347
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-31T15:02:14+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678134119
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-05-31T15:03:27+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678207726
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-31T15:03:45+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678225188
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 97 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-05-31T15:03:45+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678225859
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 97 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2016-05-31T15:03:46+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678226361
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 97 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-05-31T15:03:48+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-05-31T15:03:49+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-05-31T15:03:51+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678231008
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-31T15:03:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678231009
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-05-31T15:03:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464678231799
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-05-31T15:03:55+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-05-31T15:04:00+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-05-31T15:04:01+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678241681
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-05-31T15:04:01+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678241682
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-05-31T15:04:04+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678244855
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 97 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-05-31T15:08:30+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678510798
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-05-31T15:08:53+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678533432
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-05-31T15:08:53+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678533819
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-05-31T15:09:36+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678576909
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-05-31T15:09:37+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678577716
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-05-31T15:10:16+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678616071
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-05-31T15:10:17+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678617449
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-05-31T15:10:20+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-05-31T15:10:22+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: $user /Library/WebServer/Documents/meeting/app/Home/Controller/UserController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-05-31T15:10:23+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678623227
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-05-31T15:10:23+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678623228
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-05-31T15:10:25+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464678625676
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-05-31T15:10:48+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464678648737
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-05-31T15:10:57+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-31T15:11:03+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-05-31T15:11:08+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: $user /Library/WebServer/Documents/meeting/app/Home/Controller/UserController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-05-31T15:11:09+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678669296
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-05-31T15:11:09+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678669297
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-05-31T15:11:11+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678671057
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 69 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-05-31T15:12:56+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678775961
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 71 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Admin'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-05-31T15:12:57+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-05-31T15:13:02+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-05-31T15:13:03+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678783707
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-05-31T15:13:03+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678783708
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-05-31T15:13:05+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678785299
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 71 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 78 行.
+NOTIC: [2] strcasecmp() expects parameter 1 to be string, array given /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 100 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-05-31T15:14:57+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678897290
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 71 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 78 行.
+NOTIC: [2] strcasecmp() expects parameter 1 to be string, array given /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 100 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-05-31T15:14:58+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-05-31T15:15:01+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-05-31T15:15:02+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678902642
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-05-31T15:15:02+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678902643
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-05-31T15:15:08+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678908066
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-05-31T15:15:08+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678908067
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-05-31T15:15:28+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678928100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-05-31T15:15:31+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-05-31T15:15:32+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-05-31T15:15:34+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678934069
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-05-31T15:15:34+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678934070
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-05-31T15:15:35+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464678935121
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-05-31T15:15:36+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-05-31T15:15:41+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-05-31T15:15:42+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464678942185
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-05-31T15:15:42+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464678942186
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-05-31T15:15:43+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464678943482
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-05-31T15:16:42+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464679002516
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-05-31T15:16:42+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464679002517
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-05-31T15:16:43+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679003338
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-05-31T15:21:42+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464679302507
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-05-31T15:21:42+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464679302508
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-05-31T15:21:43+08:00 ] 127.0.0.1 /Home/Index/showReservation?id=71&_=1464679302509
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `reservation_no` = '71'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-05-31T15:21:48+08:00 ] 127.0.0.1 /Home/Index/showReservation?id=68&_=1464679302510
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `reservation_no` = '68'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-05-31T15:21:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?id=70&_=1464679302511
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `reservation_no` = '70'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-05-31T15:21:55+08:00 ] 127.0.0.1 /Home/Index/showReservation?id=70&_=1464679302512
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `reservation_no` = '70'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-05-31T15:23:30+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464679410076
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-05-31T15:23:30+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464679410077
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-31T15:23:31+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679411257
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-31T15:24:16+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679455954
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-05-31T15:25:30+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679530666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-05-31T15:25:51+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679551712
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005050s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-05-31T15:25:59+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679559468
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0097s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2016-05-31T15:26:05+08:00 ] 127.0.0.1 /Home/Index/withdrawReservation?id=68&_=1464679559469
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0069s ]
+SQL: DELETE FROM `reservation` WHERE `reservation_no` = 68 [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-05-31T15:26:07+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679567033
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-31T15:26:08+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679568416
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-05-31T15:28:49+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Admin&_=1464679729752
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: date /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: condition /Library/WebServer/Documents/meeting/app/Home/Controller/IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-05-31T19:04:05+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-05-31T19:04:06+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464692646199
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-05-31T19:04:06+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464692646200
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-05-31T19:04:09+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464692649480
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: date /Users/eda/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Users/eda/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-05-31T19:04:16+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464692655941
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-05-31T19:04:16+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464692655942
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-05-31T19:04:17+08:00 ] 127.0.0.1 /Home/Index/showReservation?id=71&_=1464692655943
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined index: date /Users/eda/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `reservation_no` = '71'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-31T19:06:00+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464692760312
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-05-31T19:06:00+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464692760794
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-05-31T19:06:01+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464692760795
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-05-31T19:06:03+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-05-31T19:06:04+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-05-31T19:06:06+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464692765905
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-05-31T19:06:06+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464692765906
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-05-31T19:06:43+08:00 ] 127.0.0.1 /Home/Index/submit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /Users/eda/meeting/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/eda/meeting/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `reservation` (`start_time`,`end_time`,`operator`,`operator_contact`,`meeting_theme`,`meeting_dept`,`meeting_num`,`multimedia`,`operator_username`,`meeting_date`,`room_no`,`reservation_time`) VALUES ('09:30','10:00','eda','4479453','theme','Hardwork','32','1','Eric','2016-05-31','1','2016-05-31 19:06:43') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-05-31T19:06:46+08:00 ] 127.0.0.1 /Home/Index/showRoom?location=Nokia%20No.3%203F&_=1464692805932
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `room` WHERE `room_location` = 'Nokia No.3 3F'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-05-31T19:06:46+08:00 ] 127.0.0.1 /Home/Index/showReservation?date=2016-05-31&_=1464692805933
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `meeting_date` = '2016-05-31'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-05-31T19:06:47+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464692807212
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: date /Users/eda/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Users/eda/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+

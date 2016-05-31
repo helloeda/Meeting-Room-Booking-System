@@ -1,0 +1,59 @@
+[ 2016-05-28T21:05:34+08:00 ] 127.0.0.1 /Home/Index/submit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/meeting/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `reservation` (`start_time`,`end_time`,`operator`,`operator_contact`,`meeting_theme`,`meeting_dept`,`meeting_num`,`multimedia`,`operator_username`,`meeting_date`,`room_no`,`reservation_time`) VALUES ('09:30','10:30','1','fd','s','e','21','1','eda','2016-05-09','1','2016-05-28 21:05:34') [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006703s ]
+
+[ 2016-05-28T22:44:20+08:00 ] 127.0.0.1 /Home/User/logout_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-05-28T22:44:23+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-05-28T23:13:21+08:00 ] 127.0.0.1 /
+ERR: 模板不存在:./app/Home/View/Index/index.html
+
+[ 2016-05-28T23:20:10+08:00 ] 127.0.0.1 /
+ERR: Unable to load template file 'Index/index.html'
+
+[ 2016-05-28T23:56:24+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-05-28T23:56:53+08:00 ] 127.0.0.1 /Home/User/login_check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'eric' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-05-28T23:57:00+08:00 ] 127.0.0.1 /Home/Index/showRoom
+ERR: 非法操作:showRoom
+
