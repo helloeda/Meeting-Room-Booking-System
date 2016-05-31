@@ -2312,3 +2312,15 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
 
+[ 2016-05-31T19:19:35+08:00 ] 127.0.0.1 /Home/Index/showReservation?user=Eric&_=1464693575046
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: date /Users/eda/meeting/app/Home/Controller/IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined index: id /Users/eda/meeting/app/Home/Controller/IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `reservation` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `reservation` INNER JOIN room ON room.room_no = reservation.room_no  WHERE `operator_username` = 'Eric'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
