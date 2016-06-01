@@ -40,7 +40,6 @@ class UserController extends Controller{
         session('password',$password);
         session('user_type',$user["user_type"]);
 
-
         if($user){
             $loginStatus = 0;
         }
@@ -55,8 +54,7 @@ class UserController extends Controller{
         // 将数据字典使用JSON编码
         echo json_encode($response, JSON_UNESCAPED_UNICODE);
     }
-
-
+    
     public function logout_check(){
         session("username",null);
         session("password",null);

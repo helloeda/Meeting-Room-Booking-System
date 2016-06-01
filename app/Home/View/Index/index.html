@@ -17,7 +17,6 @@
 
 </head>
 <body>
-
 <div class="main-box" style="top: 0px; margin-top: 20px;">
     <div class="main-logo"></div>
     <div class="logo-c"></div>
@@ -62,14 +61,12 @@
                     </div>
                     <div class="bt-3">
 
-
                     </div>
-
                 </div>
             </div>
             <ul class="page-div"><li class="page-sel">1</li><li><a href="">2</a></li><li><a href="">下一页</a></li></ul>
 
-    </div>
+        </div>
     </div>
     <div class="copyright">Meeting Room Booking System</div>
 </div>
