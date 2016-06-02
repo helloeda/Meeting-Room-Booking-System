@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="eda.im" filePermissions="420" folderPermissions="493" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="eda.im">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/meeting" local="$PROJECT_DIR$" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

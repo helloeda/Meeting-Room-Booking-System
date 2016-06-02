@@ -6,13 +6,15 @@ var isOperating = 0;
  * @param endTime 会议结束时间
  * @param reservationNo 会议室预定ID
  */
+function toMin(originTime) {
+    var hour = parseInt(originTime.substring(0, 2));
+    var min = parseInt(originTime.substring(3));
+    return hour * 60 + min;
+}
+
+
 function addReserve(roomid, startTime, endTime, reservationNo) {
 
-    function toMin(originTime) {
-        var hour = parseInt(originTime.substring(0, 2));
-        var min = parseInt(originTime.substring(3));
-        return hour * 60 + min;
-    }
 
     //开会时间距离8点的分钟数转为时间轴的百分比
     var startTimePercent = ((toMin(startTime) - 480) / 660 * 100).toString() + "%";
@@ -28,26 +30,42 @@ function addReserve(roomid, startTime, endTime, reservationNo) {
 
 
 $(".b-btn-submit").click(function () {
-    $_this = $(this);
 
-    $.ajax({
-        cache: true,
-        type: "POST",
-        url: "/Home/Index/submit",
-        data: $('#book_form').serialize(),// 你的formid
-        async: false,
-        error: function (request) {
-            swal("Error!", "Connection error!", "error");
-        },
-        success: function (data) {
-            if (data) {
-                addReserve($_this.attr("id"), $('input[name="start_time"]').val(), $('input[name="end_time"]').val(), data);
-                $(".common-book-box").css("display", "none");
-                swal("Success!", "You have booked the meeting room!", "success");
+    if(!$("input[name='start_time']").val()||!$("input[name='end_time']").val()||!$("input[name='operator']").val()||
+        !$("input[name='operator_contact']").val()||!$("input[name='meeting_theme']").val()||!$("input[name='meeting_dept']").val()
+    ||!$("input[name='meeting_num']").val())
+    {
+
+        $(".check").text("Warning: The information below must be completed in FULL!");
+    }
+    else if(toMin($("input[name='start_time']").val())>=toMin($("input[name='end_time']").val()))
+    {
+        $(".check").text("Warning: End Time must later than start time!");
+    }
+    else
+    {
+        $_this = $(this);
+
+        $.ajax({
+            cache: true,
+            type: "POST",
+            url: "/Home/Index/submit",
+            data: $('#book_form').serialize(),// 你的formid
+            async: false,
+            error: function (request) {
+                swal("Error!", "Connection error!", "error");
+            },
+            success: function (data) {
+                if (data) {
+                    addReserve($_this.attr("id"), $('input[name="start_time"]').val(), $('input[name="end_time"]').val(), data);
+                    $(".common-book-box").css("display", "none");
+                    swal("Success!", "You have booked the meeting room!", "success");
+                }
+                else swal("Error!", "Failed to book the meeting room!", "error");
             }
-            else swal("Error!", "Failed to book the meeting room!", "error");
-        }
-    });
+        });
+    }
+
 
 
 });

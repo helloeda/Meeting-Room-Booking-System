@@ -20,7 +20,7 @@ function showRecord() {
                 var $record = "<ul class='l-content'" + detail + "> <li class='l-room-name'>" + reservationList[i]['room_name'] +
                     "</li> <li class='l-user'>" + reservationList[i]['operator_username']   + "</li> <li class='l-manager'>" + reservationList[i]['operator'] +
                     "</li> <li class='l-contact'>" + reservationList[i]['operator_contact'] + "</li> <li class='l-day'>" +
-                    reservationList[i]['reservation_time'] + "</li> <li class='l-time'>" + reservationList[i]['reservation_time'] +
+                    reservationList[i]['reservation_time'] + "</li> <li class='l-time'>" + reservationList[i]['meeting_date'] +
                     "</li> <li class='l-part'>" + reservationList[i]['start_time'] + "-" + reservationList[i]['end_time'] +
                     "</li> <li class='l-status' >" + reservationList[i]['meeting_theme'] + "</li> <li class='l-oper'> " +
                     "<span class='to-check' onclick='showDetail($(this))'>Detail</span></li> </ul>";

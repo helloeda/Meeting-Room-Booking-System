@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e49199a9-9309-4d99-9395-426c89dd78f0" name="eda.im" url="http://114.215.88.217">
+        <fileTransfer host="114.215.88.217" port="22" rootFolder="/var/www" accessType="SFTP" password="dfefdfeedfebdf9ddf99df9cdf9bdf9fdf9cdf9fdf9ddfdddfd3dfde" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

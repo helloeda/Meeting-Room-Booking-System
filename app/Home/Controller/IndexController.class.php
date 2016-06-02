@@ -96,7 +96,7 @@ class IndexController extends Controller {
         }
 
 
-        $reservation=M('Reservation')->join('room ON room.room_no = reservation.room_no' )->where($condition)->select();
+        $reservation=M('Reservation')->join('room ON room.room_no = reservation.room_no' )->order('meeting_date desc')->where($condition)->select();
         echo json_encode($reservation);
     }
 
